@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".AgregarClientes2">
+
+    <TextView
+        android:id="@+id/eee4"
+        android:layout_width="231dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#000000"
+        android:text="Colonia"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <EditText
+        android:id="@+id/Correo"
+        android:layout_width="231dp"
+        android:layout_height="43dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="503dp" />
+
+    <TextView
+        android:id="@+id/eee3"
+        android:layout_width="231dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#000000"
+        android:text="Telefono"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="569dp" />
+
+    <EditText
+        android:id="@+id/Dirrecion"
+        android:layout_width="231dp"
+        android:layout_height="43dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <TextView
+        android:id="@+id/eee2"
+        android:layout_width="231dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#000000"
+        android:text="Calle"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <EditText
+        android:id="@+id/nombreCliente"
+        android:layout_width="231dp"
+        android:layout_height="43dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <TextView
+        android:id="@+id/eee"
+        android:layout_width="231dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#090909"
+        android:text="Nombre del cliente"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <Button
+        android:id="@+id/btnAgregarCliente"
+        android:layout_width="162dp"
+        android:layout_height="50dp"
+        android:text="agregar"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/shopping"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/Telefono1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="numberSigned"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="606dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

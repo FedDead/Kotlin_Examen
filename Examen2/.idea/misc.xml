@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.240625" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.240625" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_adapter_carrito.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_agregar_clientes2.xml" value="0.22" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_agregar_producto.xml" value="0.2" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_agregar_productos2.xml" value="0.22" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_carrito.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_chat.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_clientes.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_configuracion.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_editar.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_editar_cliente.xml" value="0.21" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_editar_producto.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_estado_producto.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_historial_cliente.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_inicio.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_inicio_cliente.xml" value="0.2" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_lista_chat.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_pedidos.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_popup.xml" value="0.2" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_preguntas.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_producto_cliente.xml" value="0.22" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_productos.xml" value="0.22" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_registro.xml" value="0.22" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_registro2.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_servicio_cliente.xml" value="0.22" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_servicios.xml" value="0.21" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_servicios_agregar.xml" value="0.22" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_servicios_editar.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_setting.xml" value="0.22" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_setting2.xml" value="0.22" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_tienda.xml" value="0.22" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_tienda_producto.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_tienda_select.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_tienda_servicio.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_tipos_usuarios.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_tipousuario.xml" value="0.21" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_vendedor_form.xml" value="0.1453804347826087" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/bg_rounded.xml" value="0.10233029381965553" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/custom_list.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Examen2/app/src/main/res/layout/list_product.xml" value="0.25" />
+        <entry key="..\:/Users/clever/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_agregar_clientes.xml" value="0.2" />
+        <entry key="..\:/Users/clever/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_agregar_clientes2.xml" value="0.25" />
+        <entry key="..\:/Users/clever/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_agregar_producto.xml" value="0.2" />
+        <entry key="..\:/Users/clever/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_agregar_productos2.xml" value="0.25" />
+        <entry key="..\:/Users/clever/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_carrito.xml" value="0.18" />
+        <entry key="..\:/Users/clever/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_clientes.xml" value="0.22" />
+        <entry key="..\:/Users/clever/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_editar.xml" value="0.2" />
+        <entry key="..\:/Users/clever/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_editar_cliente.xml" value="0.18" />
+        <entry key="..\:/Users/clever/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_editar_producto.xml" value="0.2986003110419907" />
+        <entry key="..\:/Users/clever/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_inicio.xml" value="0.33" />
+        <entry key="..\:/Users/clever/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/clever/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_popup.xml" value="0.2" />
+        <entry key="..\:/Users/clever/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_productos.xml" value="0.18" />
+        <entry key="..\:/Users/clever/AndroidStudioProjects/Examen2/app/src/main/res/layout/activity_registro.xml" value="0.2" />
+        <entry key="..\:/Users/clever/AndroidStudioProjects/Examen2/app/src/main/res/layout/com.xml" value="0.18" />
+        <entry key="..\:/Users/clever/AndroidStudioProjects/Examen2/app/src/main/res/layout/custom_list.xml" value="0.33" />
+        <entry key="..\:/Users/clever/AndroidStudioProjects/Examen2/app/src/main/res/layout/list_product.xml" value="0.25" />
+        <entry key="..\:/Users/clever/AndroidStudioProjects/Examen2/app/src/main/res/layout/productoList.xml" value="0.67" />
+        <entry key="..\:/Users/clever/Desktop/Examen 2.5/Examen2/app/src/main/res/layout/activity_adapter_carrito.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/clever/Desktop/Examen 2.5/Examen2/app/src/main/res/layout/activity_carrito.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/clever/Desktop/Examen 2.5/Examen2/app/src/main/res/layout/activity_clientes.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/clever/Desktop/Examen 2.5/Examen2/app/src/main/res/layout/activity_inicio.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/clever/Desktop/Examen 2.5/Examen2/app/src/main/res/layout/activity_inicio_cliente.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/clever/Desktop/Examen 2.5/Examen2/app/src/main/res/layout/activity_popup.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/clever/Desktop/Examen 2.5/Examen2/app/src/main/res/layout/activity_producto_cliente.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/clever/Desktop/Examen 2.5/Examen2/app/src/main/res/layout/activity_tienda.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/clever/Desktop/Examen 2.7/Examen2/app/src/main/res/layout/activity_chat.xml" value="0.15443840579710144" />
+        <entry key="..\:/Users/clever/Desktop/Examen 2.7/Examen2/app/src/main/res/layout/activity_inicio_cliente.xml" value="0.15443840579710144" />
+        <entry key="..\:/Users/clever/Desktop/Examen 2.7/Examen2/app/src/main/res/layout/activity_lista_chat.xml" value="0.15443840579710144" />
+        <entry key="..\:/Users/clever/Desktop/Examen 2.7/Examen2/app/src/main/res/layout/activity_tienda.xml" value="0.15443840579710144" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

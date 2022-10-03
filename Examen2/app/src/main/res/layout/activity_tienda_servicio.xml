@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TiendaServicio">
+
+    <SearchView
+        android:id="@+id/busServicio3"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="8dp"
+        android:background="#000000"
+        android:ems="10"
+        android:hint="Buscar Producto..."
+        android:inputType="textPersonName"
+        android:searchIcon="@android:drawable/ic_menu_search"
+        app:layout_constraintBottom_toTopOf="@+id/actualizarServicios3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/buscarServicio3"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="52dp"
+        android:text="buscar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/actualizarServicios3"
+        app:layout_constraintEnd_toStartOf="@+id/actualizarServicios3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/actualizarServicios3" />
+
+    <Button
+        android:id="@+id/actualizarServicios3"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="9dp"
+        android:text="Actualizar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buscarServicio3"
+        app:layout_constraintTop_toBottomOf="@+id/busServicio3"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#000000"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actualizarServicios3"
+        tools:ignore="MissingConstraints">
+
+        <ListView
+            android:id="@+id/listView10"
+            android:layout_width="397dp"
+            android:layout_height="571dp"
+            android:background="#000000"
+            android:backgroundTint="#000000"
+            android:cacheColorHint="@color/black"
+            android:divider="@color/black"
+            android:listSelector="@color/black"
+            android:scrollbars="vertical"
+            android:textColor="#000000"
+            android:textFilterEnabled="false">
+
+        </ListView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarProducto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/eee"
+                android:layout_width="245dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="31dp"
+                android:layout_marginBottom="511dp"
+                android:text="Nombre del Producto"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/btnEliminarProduct"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/Producto"
+                android:layout_width="235dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="13dp"
+                android:ems="10"
+                android:hint="Nombre "
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/eee2"
+                app:layout_constraintEnd_toEndOf="@+id/eee"
+                app:layout_constraintStart_toStartOf="@+id/eee"
+                app:layout_constraintTop_toBottomOf="@+id/eee" />
+
+            <EditText
+                android:id="@+id/Descripcion"
+                android:layout_width="230dp"
+                android:layout_height="36dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:hint="Descripcion"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView2"
+                app:layout_constraintEnd_toEndOf="@+id/textView2"
+                app:layout_constraintStart_toStartOf="@+id/textView2"
+                app:layout_constraintTop_toBottomOf="@+id/eee2" />
+
+            <TextView
+                android:id="@+id/eee2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="2dp"
+                android:text="Descripcion"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/Descripcion"
+                app:layout_constraintEnd_toEndOf="@+id/Producto"
+                app:layout_constraintStart_toStartOf="@+id/Producto"
+                app:layout_constraintTop_toBottomOf="@+id/Producto" />
+
+            <EditText
+                android:id="@+id/PrecioCosto"
+                android:layout_width="224dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:ems="10"
+                android:hint="Precio Costo"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/PrecioVenta"
+                app:layout_constraintEnd_toEndOf="@+id/textView2"
+                app:layout_constraintStart_toStartOf="@+id/eee2"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+            <EditText
+                android:id="@+id/PrecioVenta"
+                android:layout_width="225dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="24dp"
+                android:ems="10"
+                android:hint="Precio Venta"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/eee4"
+                app:layout_constraintEnd_toEndOf="@+id/textView2"
+                app:layout_constraintStart_toStartOf="@+id/PrecioCosto"
+                app:layout_constraintTop_toBottomOf="@+id/PrecioCosto" />
+
+            <TextView
+                android:id="@+id/eee4"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="7dp"
+                android:text="Url de la foto"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/FotoUrl"
+                app:layout_constraintEnd_toEndOf="@+id/eee12"
+                app:layout_constraintStart_toStartOf="@+id/Stock"
+                app:layout_constraintTop_toBottomOf="@+id/PrecioVenta" />
+
+            <EditText
+                android:id="@+id/FotoUrl"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginEnd="9dp"
+                android:layout_marginBottom="24dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/eee12"
+                app:layout_constraintEnd_toEndOf="@+id/eee12"
+                app:layout_constraintStart_toStartOf="@+id/eee12"
+                app:layout_constraintTop_toBottomOf="@+id/eee4" />
+
+            <TextView
+                android:id="@+id/eee12"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="Stock inicial"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/Stock"
+                app:layout_constraintEnd_toEndOf="@+id/Stock"
+                app:layout_constraintStart_toStartOf="@+id/spinner12"
+                app:layout_constraintTop_toBottomOf="@+id/FotoUrl" />
+
+            <EditText
+                android:id="@+id/Stock"
+                android:layout_width="248dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView30"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/eee12" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:text="Precios de venta y costo"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toTopOf="@+id/PrecioCosto"
+                app:layout_constraintEnd_toEndOf="@+id/eee2"
+                app:layout_constraintStart_toStartOf="@+id/eee4"
+                app:layout_constraintTop_toBottomOf="@+id/Descripcion" />
+
+            <Button
+                android:id="@+id/btnEditarProduct"
+                android:layout_width="165dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="114dp"
+                android:text="Editar"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btnEliminarProduct"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinner12" />
+
+            <Button
+                android:id="@+id/btnEliminarProduct"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginBottom="114dp"
+                android:text="Eliminar"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/btnEditarProduct"
+                app:layout_constraintTop_toBottomOf="@+id/eee" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:text="Visibilidad"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                app:layout_constraintBottom_toTopOf="@+id/spinner12"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Stock" />
+
+            <Spinner
+                android:id="@+id/spinner12"
+                android:layout_width="259dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="38dp"
+                android:layout_marginBottom="40dp"
+                app:layout_constraintBottom_toTopOf="@+id/btnEditarProduct"
+                app:layout_constraintEnd_toEndOf="@+id/btnEliminarProduct"
+                app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

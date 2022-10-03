@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgregarClientes2">
+
+    <TextView
+        android:id="@+id/ee4"
+        android:layout_width="231dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="36dp"
+        android:text="Correo"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clienteTelefonoEditar" />
+
+    <EditText
+        android:id="@+id/clienteCorreoEditar"
+        android:layout_width="231dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ee4" />
+
+    <EditText
+        android:id="@+id/clienteTelefonoEditar"
+        android:layout_width="231dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ee3" />
+
+    <TextView
+        android:id="@+id/ee3"
+        android:layout_width="231dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="40dp"
+        android:text="Telefono"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clienteDirrecionEditar" />
+
+    <EditText
+        android:id="@+id/clienteDirrecionEditar"
+        android:layout_width="231dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ee2" />
+
+    <TextView
+        android:id="@+id/ee2"
+        android:layout_width="231dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="36dp"
+        android:text="Dirrecion"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombreClienteEditar" />
+
+    <EditText
+        android:id="@+id/nombreClienteEditar"
+        android:layout_width="231dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ee" />
+
+    <TextView
+        android:id="@+id/ee"
+        android:layout_width="231dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="48dp"
+        android:text="Nombre del cliente"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnEditar2"
+        android:layout_width="162dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="80dp"
+        android:text="Editar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clienteCorreoEditar" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="162dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:text="Eliminar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnEditar2"
+        app:layout_constraintTop_toBottomOf="@+id/clienteCorreoEditar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

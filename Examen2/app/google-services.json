@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "13922639385",
+    "project_id": "prueb-fc290",
+    "storage_bucket": "prueb-fc290.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13922639385:android:aa6acf1714f08104505488",
+        "android_client_info": {
+          "package_name": "com.example.examen2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13922639385-p81pklnp4lqv397obfshcjhitgspmqq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgZVa6G6k9HIf7H-hcM_ggLU58xUZawmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13922639385-p81pklnp4lqv397obfshcjhitgspmqq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13922639385:android:7fba15f43412082c505488",
+        "android_client_info": {
+          "package_name": "com.example.segundo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13922639385-p81pklnp4lqv397obfshcjhitgspmqq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgZVa6G6k9HIf7H-hcM_ggLU58xUZawmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13922639385-p81pklnp4lqv397obfshcjhitgspmqq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
